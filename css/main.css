@@ -1637,9 +1637,9 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #00aeff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #00aeff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #00aeff 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
   opacity: 0.6;
 }
 
@@ -1915,7 +1915,7 @@ textarea {
 }
 
 #contact {
-  background: linear-gradient( 0deg, #3c96ff 0%, #00aeff 100%);
+  background: linear-gradient( -45deg, hsl(249, 68%, 56%), #00aeff);
   padding-bottom: 80px;
   position: relative;
   text-align: center;
@@ -1951,9 +1951,9 @@ textarea {
   Subscribe Style
   ========================================================================== */
 #subscribe {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
   position: relative;
 }
 
@@ -2107,9 +2107,9 @@ textarea {
 }
 
 footer .footer-Content {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #00aeff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #00aeff 100%);
-  background-image: -ms-linear-gradient( 0deg, #3c96ff 0%, #00aeff 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient( -45deg, hsl(249, 68%, 56%), #00aeff);
   padding: 60px 0 0px;
   color: #546E7A;
 }
@@ -2280,27 +2280,27 @@ footer .menu li a:hover {
 }
 
 #counter .bg-color-1 {
-  background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-  background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
 }
 
 #counter .bg-color-2 {
-  background-image: -moz-linear-gradient(0deg, #00b09b 0%, #96c93d 100%);
-  background-image: -webkit-linear-gradient(0deg, #00b09b 0%, #96c93d 100%);
-  background-image: -ms-linear-gradient(0deg, #00b09b 0%, #96c93d 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff;
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
 }
 
 #counter .bg-color-3 {
-  background-image: -moz-linear-gradient(0deg, #4e54c8 0%, #8f94fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #4e54c8 0%, #8f94fb 100%);
-  background-image: -ms-linear-gradient(0deg, #4e54c8 0%, #8f94fb 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
 }
 
 #counter .bg-color-4 {
-  background-image: -moz-linear-gradient(0deg, #b17beb 0%, #8161d0 100%);
-  background-image: -webkit-linear-gradient(0deg, #b17beb 0%, #8161d0 100%);
-  background-image: -ms-linear-gradient(0deg, #b17beb 0%, #8161d0 100%);
+  background-image: -moz-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
+  background-image: -ms-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff);
 }
 
 .btn-subtitle {
