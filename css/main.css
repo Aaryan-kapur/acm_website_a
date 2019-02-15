@@ -485,8 +485,8 @@ button:focus {
 }
 
 .menu-bg {
-  background: -webkit-linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff) !important;
-  background: linear-gradient(-45deg, hsl(249, 68%, 56%), #00aeff) !important;
+  background: -webkit-linear-gradient(45deg, hsl(249, 68%, 56%), #00aeff) !important;
+  background: linear-gradient(45deg, hsl(249, 68%, 56%), #00aeff) !important;
   box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   padding: 5px;
@@ -1915,7 +1915,7 @@ textarea {
 }
 
 #contact {
-  background: linear-gradient( -45deg, hsl(249, 68%, 56%), #00aeff);
+  background: linear-gradient( 45deg, hsl(249, 68%, 56%), #00aeff);
   padding-bottom: 50px;
   position: relative;
   text-align: center;

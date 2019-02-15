@@ -1,26 +1,18 @@
 (function($) {
   
   "use strict";
-  
-  /* Page Loader active
-  ========================================================*/
+
   $('#preloader').fadeOut();
 
-  /* 
-  CounterUp
-  ========================================================================== */
+
   $('.counter').counterUp({
     time: 500
   });  
   
-  /* 
-  MixitUp
-  ========================================================================== */
+
   $('#portfolio').mixItUp();
 
-  /* 
-   Screens Crouserl
-   ========================================================================== */
+
     $('#carousel-screen').carousel({
       num: 5,
       maxWidth: 450,
@@ -31,9 +23,6 @@
       showTime: 4000
     });   
 
-  /* 
-   Clients Sponsor 
-   ========================================================================== */
     var owl = $("#clients-scroller");
     owl.owlCarousel({
       items:5,
@@ -49,8 +38,6 @@
       itemsMobile : [479,1],
     });
 
-  /* Testimonials Carousel 
-  ========================================================*/
   var owl = $("#testimonials");
     owl.owlCarousel({
       navigation: false,
@@ -67,9 +54,6 @@
       itemsMobile : [479,1],
     });   
 
-  /* 
-   Touch Owl Carousel
-   ========================================================================== */
     var owl = $(".touch-slider");
     owl.owlCarousel({
       navigation: false,
@@ -86,8 +70,6 @@
     $('.touch-slider').find('.owl-prev').html('<i class="lni-arrow-left"></i>');
     $('.touch-slider').find('.owl-next').html('<i class="lni-arrow-right"></i>');
 
-    /* Screens Shot Slider
-    =============================*/
      var owl = $(".screens-slider");
       owl.owlCarousel({
         navigation: false,
@@ -102,9 +84,6 @@
         itemsMobile: [479, 1]
       });
 
-  /* 
-   Sticky Nav
-   ========================================================================== */
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
             $('.header-top-area').addClass('menu-bg');
@@ -113,9 +92,6 @@
         }
     });
 
-  /* 
- VIDEO POP-UP
- ========================================================================== */
   $('.video-popup').magnificPopup({
       disableOn: 700,
       type: 'iframe',
@@ -125,9 +101,6 @@
       fixedContentPos: false,
   });
 
-  /* 
-   Back Top Link
-   ========================================================================== */
     var offset = 200;
     var duration = 500;
     $(window).scroll(function() {
@@ -146,10 +119,6 @@
       return false;
     })
 
-  /* 
-   One Page Navigation & wow js
-   ========================================================================== */
-    //Initiat WOW JS
     new WOW().init();
 
     $(window).on('load', function() {
@@ -169,8 +138,6 @@
 
     });
 
-  /* Auto Close Responsive Navbar on Click
-  ========================================================*/
   function close_toggle() {
       if ($(window).width() <= 768) {
           $('.navbar-collapse a').on('click', function () {
@@ -184,8 +151,6 @@
   close_toggle();
   $(window).resize(close_toggle);
 
-  /* Nivo Lightbox
-  ========================================================*/   
    $('.lightbox').nivoLightbox({
     effect: 'fadeScale',
     keyboardNav: true,
